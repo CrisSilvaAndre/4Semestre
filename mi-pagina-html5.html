@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rous Cakes WEB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a Rous Cakes WEB</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Inicio</a></li>
+                <li><a href="#seccion2">Contenido</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="seccion1">
+            <h2>Sobre Nosotros</h2>
+            <p>Este sitio se orienta a la presentacion de los pasteles realizados o trabajo de Rous <em>(Tambien es el ejemplo de mi tarea)</em>como pastelera.</p>
+        </section>
+
+        <section id="seccion2">
+            <h2>Contenido Multimedia</h2>
+            
+            <article>
+                <h3>Imagen de ejemplo</h3>
+                <img src="assets/img/imagen1.jpg" alt="Descripción de la imagen" width="300">
+            </article>
+
+            <article>
+                <h3>Video de ejemplo</h3>
+                <video controls width="400">
+                    <source src="assets/video/video1.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </article>
+        </section>
+
+        <section>
+            <h2>Listas</h2>
+
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Primer paso</li>
+                <li>Segundo paso</li>
+                <li>Tercer paso</li>
+            </ol>
+
+            <h3>Lista Desordenada</h3>
+            <ul>
+                <li>Nueces</li>
+                <li>Moras</li>
+                <li>Fresas</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tabla de Ejemplo</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pateles</th>
+                        <th>Vendidos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chocoltae</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Vainilla</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Red Velvet</td>
+                        <td>22</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <label for="correo">Correo:</label><br>
+                <input type="email" id="correo" name="correo"><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Página HTML5. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    padding: 8px;
+    border: 1px solid #333;
+}
+
+form input, form button {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+</style>
+</html>
